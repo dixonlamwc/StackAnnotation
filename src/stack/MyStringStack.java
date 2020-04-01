@@ -33,6 +33,8 @@ public class MyStringStack {
      * @see         String
      */
     public String pop() throws NoSuchElementException {
+        stack.push (s1);
+        String s1 = new String();
     	//throw new NoSuchElementException();
     	String result = v.lastElement();
     	v.remove(result);
